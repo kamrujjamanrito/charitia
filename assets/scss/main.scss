@@ -1,0 +1,129 @@
+/* ==============
+ ========= css table of contents =========
+
+ * template name: (template-name)
+ * version: 1.0
+ * description: (template-description)
+ * author: (author-name)
+ * author-url: (author-url)
+
+ 01. abstracts
+     1.01 --> mixins
+     1.02 --> variables
+    
+ 02. base
+     2.01 --> reset
+     2.02 --> typography
+     2.03 --> global
+
+ 03. components
+     3.01 --> buttons
+     3.02 --> forms
+     3.03 --> preloader
+     3.03 --> custom cursor
+     3.03 --> scroll progress button
+     3.03 --> widgets
+
+ 04. layout
+     4.01 --> header
+     4.02 --> banner
+     4.03 --> footer
+
+ 05. sections
+     5.01 --> 
+     5.02 --> 
+     5.03 --> 
+     5.04 --> 
+     5.05 --> 
+     5.06 --> 
+     5.07 --> 
+     5.08 --> 
+     5.09 --> 
+     5.10 --> 
+     5.11 --> 
+     5.12 --> 
+     5.13 --> 
+     5.14 --> 
+     5.15 --> 
+     5.16 --> 
+     5.17 --> 
+     5.18 --> 
+     5.19 --> 
+     5.20 --> 
+     5.21 --> 
+     5.22 --> 
+     5.23 --> 
+     5.24 --> 
+     5.25 --> 
+     5.26 --> 
+     5.27 --> 
+     5.28 --> 
+     5.29 --> 
+     5.30 --> 
+
+    ==================================
+============== */
+
+// bootstrap five css
+@import url("../css/bootstrap.min.css");
+// font awesome six css
+@import url("../fonts/css/all.min.css");
+// flag icons css
+@import url("../fonts/css/flag-icons.min.css");
+// custom icons css
+@import url("../fonts/css/charitia.css");
+// magnific popup css
+@import url("../css/magnific-popup.css");
+// aos css
+@import url("../css/aos.css");
+// nice select css
+@import url("../css/nice-select.css");
+// odometer css
+@import url("../css/odometer.css");
+// swiper slider css
+@import url("../css/swiper-bundle.min.css");
+
+// abstract styles
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+// base styles
+@import "./base/reset";
+@import "./base/typography";
+@import "./base/global";
+
+// component styles
+@import "./components/buttons";
+@import "./components/forms";
+@import "./components/preloader";
+@import "./components/cursor";
+@import "./components/scroll-progress";
+@import "./components/widgets";
+
+// layout styles
+@import "./layout/header";
+@import "./layout/banner";
+@import "./layout/footer";
+
+// section styles
+@import "./sections/partner";
+@import "./sections/difference";
+@import "./sections/overview";
+@import "./sections/counter";
+@import "./sections/help";
+@import "./sections/cause";
+@import "./sections/contact";
+@import "./sections/blog";
+@import "./sections/volunteer";
+@import "./sections/community";
+@import "./sections/award";
+@import "./sections/donation";
+@import "./sections/testimonial";
+@import "./sections/faq";
+@import "./sections/shop";
+@import "./sections/event";
+@import "./sections/gallery";
+@import "./sections/team";
+@import "./sections/authentication";
+@import "./sections/coming-soon";
+@import "./sections/error";
