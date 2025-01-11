@@ -768,6 +768,9 @@
 .dark-mode .contact .topbar__item .topbar__item-single {
   background-color: #2e2c2c;
 }
+.dark-mode .contact .topbar__item .topbar__item-single span {
+  color: var(--white);
+}
 .dark-mode .authentication {
   background-color: #2e2c2c;
 }

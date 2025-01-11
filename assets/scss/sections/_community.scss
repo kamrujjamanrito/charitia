@@ -264,7 +264,7 @@
 
   .btn--primary {
     padding: 16px 40px;
-    border-radius: 30px;
+    border-radius: 5px;
     gap: 12px;
     &::after,
     &::before {
@@ -303,6 +303,10 @@
       animation: pulse 4s infinite ease-in-out;
     }
   }
+}
+
+.community-alter {
+  margin-bottom: 140px;
 }
 
 /* ==== 

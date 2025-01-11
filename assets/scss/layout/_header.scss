@@ -445,7 +445,7 @@
   .btn--secondary,
   .btn--primary {
     padding: 18px 40px;
-    border-radius: 90px;
+    border-radius: 5px;
   }
 
   .search-box {
@@ -698,7 +698,7 @@
 // sticky header
 .sticky-header {
   position: fixed !important;
-  z-index: 9999;
+  z-index: 999;
   top: 0px;
   inset-inline-start: 0px;
   inset-inline-end: 0px;
@@ -923,7 +923,7 @@
     padding: 0px 40px;
     .btn--primary {
       padding: 16px 40px;
-      border-radius: 30px;
+      border-radius: 5px;
       gap: 12px;
       width: 100%;
       justify-content: center;
@@ -1044,6 +1044,14 @@
     opacity: 0;
     transform: translateY(100%);
   }
+}
+
+.mfp-bg {
+  z-index: 9999;
+}
+
+.mfp-wrap {
+  z-index: 99999;
 }
 
 /* ==== 

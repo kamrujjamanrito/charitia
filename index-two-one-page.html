@@ -48,14 +48,14 @@
       </p>
     <![endif]-->
 
-        <div class="page-wrapper">
+    <div class="page-wrapper">
 
-                 <!-- ==== preloader start ==== -->
-                 <div class="preloader">
-                    <i class="icon-donation"></i>
-                    <p>CHARITIA</p>
-                 </div>
-                 <!-- ==== / preloader end ==== -->
+        <!-- ==== preloader start ==== -->
+        <div class="preloader">
+            <i class="icon-donation"></i>
+            <p>CHARITIA</p>
+        </div>
+        <!-- ==== / preloader end ==== -->
 
         <!-- ==== topbar start ==== -->
         <div class="topbar d-none d-lg-block">
@@ -388,7 +388,6 @@
         </div>
         <div class="cart-backdrop"></div>
         <!-- ==== / sidebar cart end ==== -->
-
         <!-- ==== banner start ==== -->
         <section class="banner">
             <div class="container">
@@ -464,50 +463,17 @@
             <div class="banner-bg">
                 <img src="assets/images/banner/banner-three-bg.jpg" alt="Image" class="parallax-image">
             </div>
-            <div class="bottom-shape">
-                <img src="assets/images/banner/banner-one-shape.png" alt="Image">
-            </div>
             <div class="alter-shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
             <div class="circle-shape"></div>
         </section>
         <!-- ==== / banner end ==== -->
 
-        <!-- ==== help section start ==== -->
-        <section class="help pt-120 pb-120" id="aboutSec">
+        <!-- ==== about section start ==== -->
+        <section class="about-two help pt-120 pb-120" id="aboutSec">
             <div class="container">
-                <div class="row align-items-center gutter-40">
-                    <div class="col-12 col-lg-5 col-xxl-6 d-none d-lg-block">
-                        <div class="help__thumb">
-                            <div class="help__thumb-inner">
-                                <div class="thumb-top thumb" data-aos="fade-left" data-aos-duration="1000">
-                                    <img src="assets/images/help/thumb-top.png" alt="Image">
-                                </div>
-                                <div class="thumb-lg thumb">
-                                    <img src="assets/images/help/thumb-lg.png" alt="Image">
-                                    <div class="video-btn-wrapper">
-                                        <a href="https://www.youtube.com/watch?v=RvreULjnzFo" target="_blank"
-                                            title="video Player" class="open-video-popup">
-                                            <i class="icon-play"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="thumb thumb-bottom" data-aos="fade-right" data-aos-duration="1000">
-                                    <img src="assets/images/help/thumb-bottom.png" alt="Image">
-                                </div>
-                                <div class="line">
-                                    <img src="assets/images/help/line.png" alt="Image">
-                                </div>
-                                <div class="grid-line">
-                                    <img src="assets/images/help/grid.png" alt="Image" class="base-img">
-                                </div>
-                                <div class="vertical-text">
-                                    <h5>We Give <span>Donations</span> to Poor People </h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-7 col-xxl-6">
-                        <div class="help__content">
+                <div class="row gutter-40 align-items-center">
+                    <div class="col-12 col-lg-7 col-xl-6">
+                        <div class="about-two__content">
                             <div class="section__header mb-20" data-aos="fade-up" data-aos-duration="1000">
                                 <span>Start Donating Poor People</span>
                                 <h2 class="title-animation">Helping each other can make world better</h2>
@@ -563,19 +529,30 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-12 col-lg-5 col-xl-6 d-none d-lg-block">
+                        <div class="about-two__thumb ">
+                            <div class="about-two__thumb-inner">
+                                <div class="thumb-two-lg" data-aos="fade-left" data-aos-duration="1000">
+                                    <img src="assets/images/help/thumb-lg.png" alt="Image">
+                                    <div class="shape"></div>
+                                </div>
+                                <div class="thumb-two-sm" data-aos="fade-right" data-aos-duration="1000"
+                                    data-aos-delay="200">
+                                    <img src="assets/images/help/thumb-bottom.png" alt="Image">
+                                </div>
+                                <div class="video-btn-wrapper">
+                                    <a href="https://www.youtube.com/watch?v=RvreULjnzFo" target="_blank"
+                                        title="video Player" class="open-video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="hand">
-                <img src="assets/images/help/hand.png" alt="Image">
-            </div>
-            <div class="parasuit">
-                <img src="assets/images/parasuit.png" alt="Image">
-            </div>
-            <div class="spade">
-                <img src="assets/images/help/spade.png" alt="Image">
-            </div>
         </section>
-        <!-- ==== / help section end ==== -->
+        <!-- ==== / about section end ==== -->
 
         <!-- ==== partner section start ==== -->
         <div class="partner">
@@ -789,7 +766,7 @@
         <!-- ==== / difference section end ==== -->
 
         <!-- ==== cause slider section start ==== -->
-        <section class="cause cause-alt pt-120 pb-120" id="causeSec" data-background="assets/images/cause/cause-bg.png">
+        <section class="cause cause-alt pt-120 pb-120" data-background="assets/images/cause/cause-bg.png" id="causeSec">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-10 col-xl-5">
@@ -857,7 +834,8 @@
                                                         </div>
                                                         <div class="cause__cta">
                                                             <a href="donate-us.html" aria-label="donate now"
-                                                                title="donate now" class="btn--primary">Donate Now</a>
+                                                                title="donate now" class="btn--primary">Donate Now <i
+                                                                    class="fa-solid fa-arrow-right-long"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -902,7 +880,8 @@
                                                         </div>
                                                         <div class="cause__cta">
                                                             <a href="donate-us.html" aria-label="donate now"
-                                                                title="donate now" class="btn--primary">Donate Now</a>
+                                                                title="donate now" class="btn--primary">Donate Now <i
+                                                                    class="fa-solid fa-arrow-right-long"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -947,7 +926,8 @@
                                                         </div>
                                                         <div class="cause__cta">
                                                             <a href="donate-us.html" aria-label="donate now"
-                                                                title="donate now" class="btn--primary">Donate Now</a>
+                                                                title="donate now" class="btn--primary">Donate Now <i
+                                                                    class="fa-solid fa-arrow-right-long"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -992,7 +972,8 @@
                                                         </div>
                                                         <div class="cause__cta">
                                                             <a href="donate-us.html" aria-label="donate now"
-                                                                title="donate now" class="btn--primary">Donate Now</a>
+                                                                title="donate now" class="btn--primary">Donate Now <i
+                                                                    class="fa-solid fa-arrow-right-long"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1037,7 +1018,8 @@
                                                         </div>
                                                         <div class="cause__cta">
                                                             <a href="donate-us.html" aria-label="donate now"
-                                                                title="donate now" class="btn--primary">Donate Now</a>
+                                                                title="donate now" class="btn--primary">Donate Now <i
+                                                                    class="fa-solid fa-arrow-right-long"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1082,7 +1064,8 @@
                                                         </div>
                                                         <div class="cause__cta">
                                                             <a href="donate-us.html" aria-label="donate now"
-                                                                title="donate now" class="btn--primary">Donate Now</a>
+                                                                title="donate now" class="btn--primary">Donate Now <i
+                                                                    class="fa-solid fa-arrow-right-long"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1127,7 +1110,8 @@
                                                         </div>
                                                         <div class="cause__cta">
                                                             <a href="donate-us.html" aria-label="donate now"
-                                                                title="donate now" class="btn--primary">Donate Now</a>
+                                                                title="donate now" class="btn--primary">Donate Now <i
+                                                                    class="fa-solid fa-arrow-right-long"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1172,7 +1156,8 @@
                                                         </div>
                                                         <div class="cause__cta">
                                                             <a href="donate-us.html" aria-label="donate now"
-                                                                title="donate now" class="btn--primary">Donate Now</a>
+                                                                title="donate now" class="btn--primary">Donate Now <i
+                                                                    class="fa-solid fa-arrow-right-long"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1200,8 +1185,82 @@
         </section>
         <!-- ==== / cause slider section end ==== -->
 
+        <!-- ==== counter section start ==== -->
+        <section class="counter-area counter-area-alter pt-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="counter__inner">
+                            <div class="row gutter-40">
+                                <div class="col-12 col-sm-6 col-lg-3">
+                                    <div class="counter__single" data-aos="fade-left" data-aos-duration="1000">
+                                        <div class="counter__single-icon">
+                                            <div class="counter__single-icon__inner">
+                                                <i class="icon-support-hand"></i>
+                                            </div>
+                                        </div>
+                                        <div class="service__counter-single-content">
+                                            <h3><span class="odometer" data-odometer-final="300"></span><span
+                                                    class="prefix">+</span></h3>
+                                            <p>Team Members</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-3">
+                                    <div class="counter__single" data-aos="fade-left" data-aos-duration="1000"
+                                        data-aos-delay="200">
+                                        <div class="counter__single-icon">
+                                            <div class="counter__single-icon__inner">
+                                                <i class="icon-review"></i>
+                                            </div>
+                                        </div>
+                                        <div class="service__counter-single-content">
+                                            <h3><span class="odometer" data-odometer-final="500"></span><span
+                                                    class="prefix">+</span></h3>
+                                            <p>Client's Review</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-3">
+                                    <div class="counter__single" data-aos="fade-left" data-aos-duration="1000"
+                                        data-aos-delay="400">
+                                        <div class="counter__single-icon">
+                                            <div class="counter__single-icon__inner">
+                                                <i class="icon-award"></i>
+                                            </div>
+                                        </div>
+                                        <div class="service__counter-single-content">
+                                            <h3><span class="odometer" data-odometer-final="99"></span><span
+                                                    class="prefix">+</span></h3>
+                                            <p>Winning Awards</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-3">
+                                    <div class="counter__single" data-aos="fade-left" data-aos-duration="1000"
+                                        data-aos-delay="600">
+                                        <div class="counter__single-icon">
+                                            <div class="counter__single-icon__inner">
+                                                <i class="icon-documents"></i>
+                                            </div>
+                                        </div>
+                                        <div class="service__counter-single-content">
+                                            <h3><span class="odometer" data-odometer-final="800"></span><span
+                                                    class="prefix">+</span></h3>
+                                            <p>Happy Clients</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==== / counter section end ==== -->
+
         <!-- ==== team section start ==== -->
-        <section class="team-three pt-120 pb-120" id="teamSec">
+        <section class="team-area-two pt-120 pb-120" id="teamSec">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-10 col-xl-5">
@@ -1223,143 +1282,155 @@
                     </div>
                 </div>
                 <div class="row gutter-40">
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="team__single-wrapper" data-aos="fade-up" data-aos-duration="1000">
-                            <div class="team__single van-tilt">
-                                <div class="team__single-thumb">
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="team__single" data-aos="fade-up" data-aos-duration="1200">
+                            <div class="thumb-wrapper">
+                                <div class="thumb">
                                     <a href="team-details.html">
-                                        <img src="assets/images/team/five.png" alt="Image">
+                                        <img src="assets/images/team/one.png" alt="Image">
                                     </a>
                                 </div>
-                                <div class="team__content-wrapper">
-                                    <div class="team__single-content">
-                                        <h5><a href="team-details.html">Michel Fokluz</a></h5>
-                                        <p>Software Engineer</p>
-                                    </div>
-                                    <div class="team__icons">
-                                        <div class="team__single-content__icon">
-                                            <i class="icon-share"></i>
-                                        </div>
-                                        <div class="team__single__thumb-social">
-                                            <ul>
-                                                <li>
-                                                    <a href="index.html">
-                                                        <i class="fa-brands fa-facebook-f"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index.html">
-                                                        <i class="fa-brands fa-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index.html">
-                                                        <i class="fa-brands fa-instagram"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index.html">
-                                                        <i class="fa-brands fa-behance"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                <div class="social">
+                                    <a href="https://www.facebook.com/" target="_blank"
+                                        aria-label="share us on facebook" title="facebook">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/" target="_blank" aria-label="share us on vimeo"
+                                        title="vimeo">
+                                        <i class="fa-brands fa-vimeo-v"></i>
+                                    </a>
+                                    <a href="https://x.com/" target="_blank" aria-label="share us on twitter"
+                                        title="twitter">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/" target="_blank"
+                                        aria-label="share us on linkedin" title="linkedin">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
                                 </div>
+
+                            </div>
+                            <div class="content">
+                                <span>Volunteer</span>
+                                <h5><a href="team-details.html">Andren Willium</a></h5>
+                                <p><a href="tel:256-255-6579"><i class="fa-solid fa-phone-volume"></i> Call: +256 255
+                                        6579</a></p>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="team__single-wrapper" data-aos="fade-up" data-aos-duration="1000"
-                            data-aos-delay="300">
-                            <div class="team__single van-tilt">
-                                <div class="team__single-thumb">
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="team__single" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                            <div class="thumb-wrapper">
+                                <div class="thumb">
                                     <a href="team-details.html">
-                                        <img src="assets/images/team/six.png" alt="Image">
+                                        <img src="assets/images/team/two.png" alt="Image">
                                     </a>
                                 </div>
-                                <div class="team__content-wrapper">
-                                    <div class="team__single-content">
-                                        <h5><a href="team-details.html">Jara Kroft</a></h5>
-                                        <p>Front End Engineer</p>
-                                    </div>
-                                    <div class="team__icons">
-                                        <div class="team__single-content__icon">
-                                            <i class="icon-share"></i>
-                                        </div>
-                                        <div class="team__single__thumb-social">
-                                            <ul>
-                                                <li>
-                                                    <a href="index.html">
-                                                        <i class="fa-brands fa-facebook-f"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index.html">
-                                                        <i class="fa-brands fa-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index.html">
-                                                        <i class="fa-brands fa-instagram"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index.html">
-                                                        <i class="fa-brands fa-behance"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                <div class="social">
+                                    <a href="https://www.facebook.com/" target="_blank"
+                                        aria-label="share us on facebook" title="facebook">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/" target="_blank" aria-label="share us on vimeo"
+                                        title="vimeo">
+                                        <i class="fa-brands fa-vimeo-v"></i>
+                                    </a>
+                                    <a href="https://x.com/" target="_blank" aria-label="share us on twitter"
+                                        title="twitter">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/" target="_blank"
+                                        aria-label="share us on linkedin" title="linkedin">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
                                 </div>
+
+                            </div>
+                            <div class="content">
+                                <span>Volunteer</span>
+                                <h5><a href="team-details.html">Polly Matzinger
+                                    </a>
+                                </h5>
+                                <p><a href="tel:256-255-6579"><i class="fa-solid fa-phone-volume"></i> Call: +256 255
+                                        6579</a></p>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="team__single-wrapper" data-aos="fade-up" data-aos-duration="1000"
-                            data-aos-delay="600">
-                            <div class="team__single van-tilt">
-                                <div class="team__single-thumb">
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="team__single" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                            <div class="thumb-wrapper">
+                                <div class="thumb">
                                     <a href="team-details.html">
-                                        <img src="assets/images/team/seven.png" alt="Image">
+                                        <img src="assets/images/team/three.png" alt="Image">
                                     </a>
                                 </div>
-                                <div class="team__content-wrapper">
-                                    <div class="team__single-content">
-                                        <h5><a href="team-details.html">Billu Devis</a></h5>
-                                        <p>Operations Manager</p>
-                                    </div>
-                                    <div class="team__icons">
-                                        <div class="team__single-content__icon">
-                                            <i class="icon-share"></i>
-                                        </div>
-                                        <div class="team__single__thumb-social">
-                                            <ul>
-                                                <li>
-                                                    <a href="index.html">
-                                                        <i class="fa-brands fa-facebook-f"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index.html">
-                                                        <i class="fa-brands fa-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index.html">
-                                                        <i class="fa-brands fa-instagram"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="index.html">
-                                                        <i class="fa-brands fa-behance"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                <div class="social">
+                                    <a href="https://www.facebook.com/" target="_blank"
+                                        aria-label="share us on facebook" title="facebook">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/" target="_blank" aria-label="share us on vimeo"
+                                        title="vimeo">
+                                        <i class="fa-brands fa-vimeo-v"></i>
+                                    </a>
+                                    <a href="https://x.com/" target="_blank" aria-label="share us on twitter"
+                                        title="twitter">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/" target="_blank"
+                                        aria-label="share us on linkedin" title="linkedin">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
                                 </div>
+
+                            </div>
+                            <div class="content">
+                                <span>Volunteer</span>
+                                <h5><a href="team-details.html">Thomas Stewart
+                                    </a>
+                                </h5>
+                                <p><a href="tel:256-255-6579"><i class="fa-solid fa-phone-volume"></i> Call: +256 255
+                                        6579</a></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="team__single" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                            <div class="thumb-wrapper">
+                                <div class="thumb">
+                                    <a href="team-details.html"><img src="assets/images/team/four.png" alt="Image"></a>
+                                </div>
+                                <div class="social">
+                                    <a href="https://www.facebook.com/" target="_blank"
+                                        aria-label="share us on facebook" title="facebook">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://vimeo.com/" target="_blank" aria-label="share us on vimeo"
+                                        title="vimeo">
+                                        <i class="fa-brands fa-vimeo-v"></i>
+                                    </a>
+                                    <a href="https://x.com/" target="_blank" aria-label="share us on twitter"
+                                        title="twitter">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/" target="_blank"
+                                        aria-label="share us on linkedin" title="linkedin">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="content">
+                                <span>Volunteer</span>
+                                <h5><a href="team-details.html">Cathy Decosta
+                                    </a>
+                                </h5>
+                                <p><a href="tel:256-255-6579"><i class="fa-solid fa-phone-volume"></i> Call: +256 255
+                                        6579</a></p>
+
                             </div>
                         </div>
                     </div>
@@ -1368,11 +1439,12 @@
                     <div class="col-12">
                         <div class=" mt-60 text-center">
                             <a href="our-team.html" aria-label="our team" title="our team" class="btn--secondary"
-                                data-text="View All"><span>View All</span>
+                                data-text="Explore All"><span>Explore All</span>
                             </a>
                         </div>
                     </div>
                 </div>
+
             </div>
             <div class="spade">
                 <img src="assets/images/sprade-green.png" alt="Image">
@@ -1380,186 +1452,118 @@
         </section>
         <!-- ==== / team section end ==== -->
 
-        <!-- ==== counter section start ==== -->
-        <section class="counter pt-120 pb-120">
+        <!-- ==== faq section start ==== -->
+        <section class="faq pt-120 pb-120 primary-bg" id="faqSec">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="counter__inner">
-                            <div class="counter__single" data-aos="fade-up" data-aos-duration="1000">
-                                <div class="thumb">
-                                    <i class="icon-support-hand"></i>
-                                </div>
-                                <div class="counter__content">
-                                    <h2><span class="odometer" data-odometer-final="400"></span><span
-                                            class="prefix">+</span>
-                                    </h2>
-                                    <h5>Team member</h5>
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-8 col-xl-6">
+                        <div class="faq__content">
+                            <div class="section__header mb-55" data-aos="fade-up" data-aos-duration="1000">
+                                <span>Answers to Common Inquiries</span>
+                                <h2 class="title-animation">Frequently Asked Questions</h2>
+                            </div>
+                            <div class="faq__content-inner cta" data-aos="fade-up" data-aos-duration="1000"
+                                data-aos-delay="100">
+                                <div class="accordion" id="accordion">
+                                    <div class="accordion-item">
+                                        <h6 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                What kind of recipes can I find on your website?
+                                            </button>
+                                        </h6>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    It is a long established fact that a reader will be distracted by
+                                                    the readable the a content of a page when looking at its layout.
+                                                    Many desktop publishing packages and web page editors.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h6 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Are the recipes suitable for beginners?
+                                            </button>
+                                        </h6>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    It is a long established fact that a reader will be distracted by
+                                                    the readable the a content of a page when looking at its layout.
+                                                    Many desktop publishing packages and web page editors.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h6 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Do you offer cooking tips and techniques?
+                                            </button>
+                                        </h6>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree" data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    It is a long established fact that a reader will be distracted by
+                                                    the readable the a content of a page when looking at its layout.
+                                                    Many desktop publishing packages and web page editors.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h6 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                                aria-expanded="false" aria-controls="collapseFour">
+                                                How frequently do you update your recipe collection?
+                                            </button>
+                                        </h6>
+                                        <div id="collapseFour" class="accordion-collapse collapse"
+                                            aria-labelledby="headingFour" data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    It is a long established fact that a reader will be distracted by
+                                                    the readable the a content of a page when looking at its layout.
+                                                    Many desktop publishing packages and web page editors.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="divider"></div>
-                            <div class="counter__single" data-aos="fade-up" data-aos-duration="1000"
-                                data-aos-delay="300">
-                                <div class="thumb">
-                                    <i class="icon-review"></i>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-xl-5">
+                        <div class="faq__thumb d-none d-lg-block">
+                            <div class="faq__thumb-inner">
+                                <div class="thumb-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                    <img src="assets/images/faq/thumb-lg.png" alt="Image">
                                 </div>
-                                <div class="counter__content">
-                                    <h2><span class="odometer" data-odometer-final="80"></span>K<span
-                                            class="prefix">+</span>
-                                    </h2>
-                                    <h5>Client's review</h5>
-                                </div>
-                            </div>
-                            <div class="divider"></div>
-                            <div class="counter__single" data-aos="fade-up" data-aos-duration="1000"
-                                data-aos-delay="600">
-                                <div class="thumb">
-                                    <i class="icon-documents"></i>
-                                </div>
-                                <div class="counter__content">
-                                    <h2><span class="odometer" data-odometer-final="100"></span>K<span
-                                            class="prefix">+</span>
-                                    </h2>
-                                    <h5>Completed projects</h5>
-                                </div>
-                            </div>
-                            <div class="divider"></div>
-                            <div class="counter__single" data-aos="fade-up" data-aos-duration="1000"
-                                data-aos-delay="900">
-                                <div class="thumb">
-                                    <i class="icon-award"></i>
-                                </div>
-                                <div class="counter__content">
-                                    <h2><span class="odometer" data-odometer-final="40"></span>K<span
-                                            class="prefix">+</span>
-                                    </h2>
-                                    <h5>Winning award</h5>
+                                <div class="thumb-sm" data-aos="fade-left" data-aos-duration="1000"
+                                    data-aos-delay="300">
+                                    <img src="assets/images/faq/thumb-sm.png" alt="Image">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="poor">
-                <img src="assets/images/banner/banner-three-bg.jpg" alt="Image" class="parallax-image">
-            </div>
-            <div class="shape-left" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
-                <img src="assets/images/shape-left.png" alt="Image" class="base-img">
-            </div>
         </section>
-        <!-- ==== / counter section end ==== -->
+        <!-- ==== / faq section end ==== -->
 
-                <!-- ==== faq section start ==== -->
-                <section class="faq pt-120 pb-120 primary-bg" id="faqSec">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-12 col-lg-8 col-xl-6">
-                                <div class="faq__content">
-                                    <div class="section__header mb-55" data-aos="fade-up" data-aos-duration="1000">
-                                        <span>Answers to Common Inquiries</span>
-                                        <h2 class="title-animation">Frequently Asked Questions</h2>
-                                    </div>
-                                    <div class="faq__content-inner cta" data-aos="fade-up" data-aos-duration="1000"
-                                        data-aos-delay="100">
-                                        <div class="accordion" id="accordion">
-                                            <div class="accordion-item">
-                                                <h6 class="accordion-header" id="headingOne">
-                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseOne" aria-expanded="true"
-                                                        aria-controls="collapseOne">
-                                                        What kind of recipes can I find on your website?
-                                                    </button>
-                                                </h6>
-                                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                                    aria-labelledby="headingOne" data-bs-parent="#accordion">
-                                                    <div class="accordion-body">
-                                                        <p>
-                                                            It is a long established fact that a reader will be distracted by
-                                                            the readable the a content of a page when looking at its layout.
-                                                            Many desktop publishing packages and web page editors.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item">
-                                                <h6 class="accordion-header" id="headingTwo">
-                                                    <button class="accordion-button collapsed" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                        aria-expanded="false" aria-controls="collapseTwo">
-                                                        Are the recipes suitable for beginners?
-                                                    </button>
-                                                </h6>
-                                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingTwo" data-bs-parent="#accordion">
-                                                    <div class="accordion-body">
-                                                        <p>
-                                                            It is a long established fact that a reader will be distracted by
-                                                            the readable the a content of a page when looking at its layout.
-                                                            Many desktop publishing packages and web page editors.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item">
-                                                <h6 class="accordion-header" id="headingThree">
-                                                    <button class="accordion-button collapsed" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                        aria-expanded="false" aria-controls="collapseThree">
-                                                        Do you offer cooking tips and techniques?
-                                                    </button>
-                                                </h6>
-                                                <div id="collapseThree" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingThree" data-bs-parent="#accordion">
-                                                    <div class="accordion-body">
-                                                        <p>
-                                                            It is a long established fact that a reader will be distracted by
-                                                            the readable the a content of a page when looking at its layout.
-                                                            Many desktop publishing packages and web page editors.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item">
-                                                <h6 class="accordion-header" id="headingFour">
-                                                    <button class="accordion-button collapsed" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                                        aria-expanded="false" aria-controls="collapseFour">
-                                                        How frequently do you update your recipe collection?
-                                                    </button>
-                                                </h6>
-                                                <div id="collapseFour" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingFour" data-bs-parent="#accordion">
-                                                    <div class="accordion-body">
-                                                        <p>
-                                                            It is a long established fact that a reader will be distracted by
-                                                            the readable the a content of a page when looking at its layout.
-                                                            Many desktop publishing packages and web page editors.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-4 col-xl-5">
-                                <div class="faq__thumb d-none d-lg-block">
-                                    <div class="faq__thumb-inner">
-                                        <div class="thumb-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                                            <img src="assets/images/faq/thumb-lg.png" alt="Image">
-                                        </div>
-                                        <div class="thumb-sm" data-aos="fade-left" data-aos-duration="1000"
-                                            data-aos-delay="300">
-                                            <img src="assets/images/faq/thumb-sm.png" alt="Image">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- ==== / faq section end ==== -->
-        
+
         <!-- ==== contact section start ==== -->
         <section class="contact-mc" id="contactSec">
             <div class="container">
@@ -1617,7 +1621,7 @@
         <!-- ==== / contact section end ==== -->
 
         <!-- ==== blog section start ==== -->
-        <section class="blog-main blog cm-details pt-120 pb-120" id="blogSec">
+        <section class="blog-area-two pt-120 pb-120" id="blogSec">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-10 col-xl-5">
@@ -1638,105 +1642,80 @@
                         </div>
                     </div>
                 </div>
-                <div class="row gutter-24">
+                <div class="row gutter-40">
                     <div class="col-12 col-md-6 col-xl-4">
-                        <div class="blog__single-wrapper" data-aos="fade-up" data-aos-duration="1000">
-                            <div class="blog__single van-tilt">
-                                <div class="blog__single-thumb">
-                                    <a href="blog-details.html">
-                                        <img src="assets/images/blog/one.png" alt="Image">
-                                    </a>
-                                    <div class="tag">
-                                        <a href="blog-list.html"><i class="fa-solid fa-tags"></i>Health</a>
-                                    </div>
+                        <div class="blog__single" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="blog__single-thumb">
+                                <a href="blog-details.html">
+                                    <img src="assets/images/blog/one.png" alt="Image">
+                                </a>
+                            </div>
+                            <div class="blog__single-content" data-aos="fade-up" data-aos-duration="1000"
+                                data-aos-delay="200">
+                                <div class="tag">
+                                    <a href="blog.html"><i class="fa-regular fa-folder-open"></i> apartment</a>
+                                    <p><i class="fa-regular fa-calendar"></i> JULY 02, 2025</p>
                                 </div>
-                                <div class="blog__single-inner">
-                                    <div class="blog__single-meta">
-                                        <p><i class="icon-user"></i>Robert Fox</p>
-                                        <p><i class="icon-message"></i>Comments (03)</p>
-                                    </div>
-                                    <div class="blog__single-content">
-                                        <h5><a href="blog-details.html">IT Service Case Studies Accelerate
-                                                Business Fly Success Tech</a>
-                                        </h5>
-                                    </div>
-                                    <div class="blog__single-cta">
-                                        <a href="blog-details.html" aria-label="blog details" title="blog details">Read
-                                            More<i class="fa-solid fa-circle-arrow-right"></i></a>
-                                    </div>
+                                <div class="blog__single-title">
+                                    <h5><a href="blog-details.html">How stay calm form the first time appointment</a>
+                                    </h5>
+                                </div>
+                                <div class="blog__single-cta">
+                                    <a href="blog-details.html">Read More<i
+                                            class="fa-solid fa-arrow-right-long"></i></a>
                                 </div>
 
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-4">
-                        <div class="blog__single-wrapper" data-aos="fade-up" data-aos-duration="1000"
-                            data-aos-delay="300">
-                            <div class="blog__single van-tilt">
-                                <div class="blog__single-thumb">
-                                    <a href="blog-details.html">
-                                        <img src="assets/images/blog/two.png" alt="Image">
-                                    </a>
-                                    <div class="tag">
-                                        <a href="blog-list.html"><i class="fa-solid fa-tags"></i>Education</a>
-                                    </div>
+                        <div class="blog__single" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                            <div class="blog__single-thumb">
+                                <a href="blog-details.html">
+                                    <img src="assets/images/blog/two.png" alt="Image">
+                                </a>
+                            </div>
+                            <div class="blog__single-content" data-aos="fade-up" data-aos-duration="1000"
+                                data-aos-delay="600">
+                                <div class="tag">
+                                    <a href="blog.html"><i class="fa-regular fa-folder-open"></i> Office</a>
+                                    <p><i class="fa-regular fa-calendar"></i> JULY 02, 2025</p>
                                 </div>
-                                <div class="blog__single-inner">
-                                    <div class="blog__single-meta">
-                                        <p><i class="icon-user"></i>Robert Fox</p>
-                                        <p><i class="icon-message"></i>Comments (08)</p>
-                                    </div>
-                                    <div class="blog__single-content">
-                                        <h5><a href="blog-details.html">IT Service Case Studies Accelerate
-                                                Business Fly Success Tech</a>
-                                        </h5>
-                                    </div>
-                                    <div class="blog__single-cta">
-                                        <a href="blog-details.html" aria-label="blog details" title="blog details">Read
-                                            More<i class="fa-solid fa-circle-arrow-right"></i></a>
-                                    </div>
+                                <div class="blog__single-title">
+                                    <h5><a href="blog-details.html">Best cleaning work
+                                            provide For our clients</a>
+                                    </h5>
+                                </div>
+                                <div class="blog__single-cta">
+                                    <a href="blog-details.html">Read More<i
+                                            class="fa-solid fa-arrow-right-long"></i></a>
                                 </div>
 
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-4">
-                        <div class="blog__single-wrapper" data-aos="fade-up" data-aos-duration="1000"
-                            data-aos-delay="600">
-                            <div class="blog__single van-tilt">
-                                <div class="blog__single-thumb">
-                                    <a href="blog-details.html">
-                                        <img src="assets/images/blog/three.png" alt="Image">
-                                    </a>
-                                    <div class="tag">
-                                        <a href="blog-list.html"><i class="fa-solid fa-tags"></i>Food</a>
-                                    </div>
+                        <div class="blog__single" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                            <div class="blog__single-thumb">
+                                <a href="blog-details.html">
+                                    <img src="assets/images/blog/three.png" alt="Image">
+                                </a>
+                            </div>
+                            <div class="blog__single-content" data-aos="fade-up" data-aos-duration="1000"
+                                data-aos-delay="1000">
+                                <div class="tag">
+                                    <a href="blog.html"><i class="fa-regular fa-folder-open"></i> Kitchen</a>
+                                    <p><i class="fa-regular fa-calendar"></i> JULY 02, 2025</p>
                                 </div>
-                                <div class="blog__single-inner">
-                                    <div class="blog__single-meta">
-                                        <p><i class="icon-user"></i>Robert Fox</p>
-                                        <p><i class="icon-message"></i>Comments (13)</p>
-                                    </div>
-                                    <div class="blog__single-content">
-                                        <h5><a href="blog-details.html">IT Service Case Studies Accelerate
-                                                Business Fly Success Tech</a>
-                                        </h5>
-                                    </div>
-                                    <div class="blog__single-cta">
-                                        <a href="blog-details.html" aria-label="blog details" title="blog details">Read
-                                            More<i class="fa-solid fa-circle-arrow-right"></i></a>
-                                    </div>
+                                <div class="blog__single-title">
+                                    <h5><a href="blog-details.html">Kitchen Cleaning service appoint now</a></h5>
+                                </div>
+                                <div class="blog__single-cta">
+                                    <a href="blog-details.html">Read More<i
+                                            class="fa-solid fa-arrow-right-long"></i></a>
                                 </div>
 
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="text-center mt-60">
-                            <a href="blog-grid.html" data-text="View All" class="btn--secondary"><span>View
-                                    All</span></a>
                         </div>
                     </div>
                 </div>
@@ -1745,127 +1724,205 @@
         <!-- ==== / blog section end ==== -->
 
         <!-- ==== testimonial section start ==== -->
-        <section class="testimonial-two pt-120 pb-120">
+        <section class="testimonial-area-two pt-120 pb-120">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12">
-                        <div class="section__header mb-60" data-aos="fade-up" data-aos-duration="1000">
-                            <span>Supporting Our Cause Together</span>
-                            <h2 class="title-animation">What People Say About Us</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="testimonial-two__inner" data-background="assets/images/testimonial-bg.png"
-                        data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                        <div class="row align-items-center">
-                            <div class="col-12 col-lg-5 d-none d-lg-block">
-                                <div class="testimonial-two__thumb">
-                                    <img src="assets/images/testimonial-thumb.png" alt="Image">
-                                    <div class="quote-thumb">
-                                        <i class="fa-solid fa-quote-right"></i>
+                    <div class="col-12 col-lg-12 col-xl-10">
+                        <div class="testimonial__intro-wrapper">
+                            <div class="row gutter-30 align-items-center">
+                                <div class="col-12 col-lg-7">
+                                    <div class="section__header" data-aos="fade-up" data-aos-duration="1000">
+                                        <span>Supporting Our Cause Together</span>
+                                        <h2 class="title-animation">What People Say About Us</h2>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-12 col-lg-7 col-xl-6">
-                                <div class="testimonial-two__content">
-                                    <div class="testimonial-two__slider swiper">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="testimonial-two__single">
-                                                    <div class="author-info">
-                                                        <div class="author-thumb">
-                                                            <img src="assets/images/author-two.png" alt="Image">
-                                                        </div>
-                                                        <div class="author-content">
-                                                            <h5>James Anderson</h5>
-                                                            <p>Software Engineer</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="testimonial-two__single-content">
-                                                        <h6>Climb the mountain not to plant your flag but to embrace
-                                                            the ways challenge, enjoy the air, and behold the. Climb it
-                                                            see the world, not so the world can see you. This is due to
-                                                            their excellent service.
-                                                        </h6>
-                                                        <div class="review">
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                        </div>
-                                                    </div>
+                                <div class="col-12 col-lg-5">
+                                    <div class="testimonial__intro">
+                                        <div class="about__content-review__counter">
+                                            <h3><span class="odometer" data-odometer-final="999"></span><span>+</span>
+                                            </h3>
+                                            <p>Active Reviews</p>
+                                        </div>
+                                        <div class="about__content-inner__thumbs">
+                                            <div class="join-users">
+                                                <div class="single-user">
+                                                    <img src="assets/images/avatar/avatar-one.png" alt="Image">
                                                 </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="testimonial-two__single">
-                                                    <div class="author-info">
-                                                        <div class="author-thumb">
-                                                            <img src="assets/images/author-two.png" alt="Image">
-                                                        </div>
-                                                        <div class="author-content">
-                                                            <h5>James Anderson</h5>
-                                                            <p>Software Engineer</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="testimonial-two__single-content">
-                                                        <h6>Climb the mountain not to plant your flag but to embrace
-                                                            the ways challenge, enjoy the air, and behold the. Climb it
-                                                            see the world, not so the world can see you. This is due to
-                                                            their excellent service.
-                                                        </h6>
-                                                        <div class="review">
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                        </div>
-                                                    </div>
+                                                <div class="single-user">
+                                                    <img src="assets/images/avatar/avatar-two.png" alt="Image">
                                                 </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="testimonial-two__single">
-                                                    <div class="author-info">
-                                                        <div class="author-thumb">
-                                                            <img src="assets/images/author-two.png" alt="Image">
-                                                        </div>
-                                                        <div class="author-content">
-                                                            <h5>James Anderson</h5>
-                                                            <p>Software Engineer</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="testimonial-two__single-content">
-                                                        <h6>Climb the mountain not to plant your flag but to embrace
-                                                            the ways challenge, enjoy the air, and behold the. Climb it
-                                                            see the world, not so the world can see you. This is due to
-                                                            their excellent service.
-                                                        </h6>
-                                                        <div class="review">
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                        </div>
-                                                    </div>
+                                                <div class="single-user">
+                                                    <img src="assets/images/avatar/avatar-three.png" alt="Image">
+                                                </div>
+                                                <div class="single-user">
+                                                    <img src="assets/images/avatar/avatar-four.png" alt="Image">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="slider-navigation mt-40">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="testimonial-two__wrapper">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-xl-10">
+                                    <div class="testimonial-two-slider swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-two__single">
+                                                    <div class="testimonial-two__single-intro">
+                                                        <div class="left-intro">
+                                                            <div class="thumb">
+                                                                <img src="assets/images/testimonial/two.png"
+                                                                    alt="Image">
+                                                            </div>
+                                                            <div class="content">
+                                                                <h6>Mr. Gold Smith</h6>
+                                                                <p>Volunteer</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="right-intro">
+                                                            <i class="fa-solid fa-quote-right"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-two__single-content">
+                                                        <p>lorem ipsum dolor sit amet consectetur. ut tellus nulla su
+                                                            spendisse aliquam. risus rutrum tellus eget ultrices pretium
+                                                            nisi amet facilisis.
+                                                        </p>
+                                                        <div class="review">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    <img src="assets/images/error-sprade.png" alt="Image"
+                                                        class="cloud base-img">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-two__single">
+                                                    <div class="testimonial-two__single-intro">
+                                                        <div class="left-intro">
+                                                            <div class="thumb">
+                                                                <img src="assets/images/testimonial/three.png"
+                                                                    alt="Image">
+                                                            </div>
+                                                            <div class="content">
+                                                                <h6>Farhat MR</h6>
+                                                                <p>CEO of Charitia</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="right-intro">
+                                                            <i class="fa-solid fa-quote-right"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-two__single-content">
+                                                        <p>lorem ipsum dolor sit amet consectetur. ut tellus nulla su
+                                                            spendisse aliquam. risus rutrum tellus eget ultrices pretium
+                                                            nisi amet facilisis.
+                                                        </p>
+                                                        <div class="review">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    <img src="assets/images/error-sprade.png" alt="Image"
+                                                        class="cloud base-img">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-two__single">
+                                                    <div class="testimonial-two__single-intro">
+                                                        <div class="left-intro">
+                                                            <div class="thumb">
+                                                                <img src="assets/images/testimonial/two.png"
+                                                                    alt="Image">
+                                                            </div>
+                                                            <div class="content">
+                                                                <h6>Mr. Gold Smith</h6>
+                                                                <p>Volunteer</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="right-intro">
+                                                            <i class="fa-solid fa-quote-right"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-two__single-content">
+                                                        <p>lorem ipsum dolor sit amet consectetur. ut tellus nulla su
+                                                            spendisse aliquam. risus rutrum tellus eget ultrices pretium
+                                                            nisi amet facilisis.
+                                                        </p>
+                                                        <div class="review">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    <img src="assets/images/error-sprade.png" alt="Image"
+                                                        class="cloud base-img">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-two__single">
+                                                    <div class="testimonial-two__single-intro">
+                                                        <div class="left-intro">
+                                                            <div class="thumb">
+                                                                <img src="assets/images/testimonial/three.png"
+                                                                    alt="Image">
+                                                            </div>
+                                                            <div class="content">
+                                                                <h6>Farhat MR</h6>
+                                                                <p>CEO of Charitia</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="right-intro">
+                                                            <i class="fa-solid fa-quote-right"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-two__single-content">
+                                                        <p>lorem ipsum dolor sit amet consectetur. ut tellus nulla su
+                                                            spendisse aliquam. risus rutrum tellus eget ultrices pretium
+                                                            nisi amet facilisis.
+                                                        </p>
+                                                        <div class="review">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    <img src="assets/images/error-sprade.png" alt="Image"
+                                                        class="cloud base-img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="slider-navigation">
                                         <button type="button" aria-label="prev slide" title="prev slide"
-                                            class="prev-testimonial-two slider-btn">
-                                            <i class="fa-solid fa-arrow-left"></i>
+                                            class="prev-testimonial slider-btn">
+                                            <i class="fa-solid fa-angle-left"></i>
                                         </button>
                                         <button type="button" aria-label="next slide" title="next slide"
-                                            class="next-testimonial-two slider-btn slider-btn-next">
-                                            <i class="fa-solid fa-arrow-right"></i>
+                                            class="next-testimonial slider-btn slider-btn-next">
+                                            <i class="fa-solid fa-angle-right"></i>
                                         </button>
-                                    </div>
-                                    <div class="quote">
-                                        <img src="assets/images/quote-two.png" alt="Image">
                                     </div>
                                 </div>
                             </div>
@@ -1873,14 +1930,8 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-bg">
-                <img src="assets/images/blog/blog-bg.png" alt="Image">
-            </div>
-            <div class="spade">
-                <img src="assets/images/error-sprade.png" alt="Image" class="base-img">
-            </div>
         </section>
-        <!-- ==== / testimonial two section end ==== -->
+        <!-- ==== / testimonial section end ==== -->
 
         <!-- ==== image gallery section start ==== -->
         <div class="gallery">
@@ -2152,7 +2203,6 @@
             </div>
         </footer>
         <!-- ==== / footer end ==== -->
-
         <!-- ==== custom cursor start ==== -->
         <div class="mouseCursor cursor-outer"></div>
         <div class="mouseCursor cursor-inner"></div>

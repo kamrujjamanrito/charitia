@@ -428,106 +428,103 @@
         });
     });
 
-
-        /**
+    /**
      * ======================================
      * 12. banner one slider
      * ======================================
      */
-        var bannerOne = new Swiper(".banner-two__slider", {
-          loop: true,
-          speed: 2000,
-          slidesPerView: 1,
-          slidesPerGroup: 1,
-          spaceBetween: 0,
-          effect: "fade",
-          fadeEffect: {
-            crossFade: true,
-          },
-          autoplay: {
-            delay: 6000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-          navigation: {
-            nextEl: ".next-banner",
-            prevEl: ".prev-banner",
-          },
-        });
+    var bannerOne = new Swiper(".banner-two__slider", {
+      loop: true,
+      speed: 2000,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 0,
+      effect: "fade",
+      fadeEffect: {
+        crossFade: true,
+      },
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      navigation: {
+        nextEl: ".next-banner",
+        prevEl: ".prev-banner",
+      },
+    });
 
-
-        /**
+    /**
      * ======================================
      * 13. banner two slider
      * ======================================
      */
-        var bannerTwo = new Swiper(".banner__slider", {
-          loop: true,
-          speed: 2000,
-          slidesPerView: 1,
-          slidesPerGroup: 1,
-          spaceBetween: 24,
-          effect: "fade",
-          fadeEffect: {
-            crossFade: true,
-          },
-          autoplay: {
-            delay: 6000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-        });
+    var bannerTwo = new Swiper(".banner__slider", {
+      loop: true,
+      speed: 2000,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 24,
+      effect: "fade",
+      fadeEffect: {
+        crossFade: true,
+      },
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+    });
 
-        /**
+    /**
      * ======================================
      * 14. banner three slider
      * ======================================
      */
-        var bannerThree = new Swiper(".banner-three__slider", {
-          loop: true,
-          speed: 2000,
-          slidesPerView: 1,
-          slidesPerGroup: 1,
-          spaceBetween: 24,
-          effect: "fade",
-          fadeEffect: {
-            crossFade: true,
-          },
-          autoplay: {
-            delay: 6000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-        });
+    var bannerThree = new Swiper(".banner-three__slider", {
+      loop: true,
+      speed: 2000,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 24,
+      effect: "fade",
+      fadeEffect: {
+        crossFade: true,
+      },
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+    });
 
-
-            /**
+    /**
      * ======================================
      * 25. banner four slider
      * ======================================
      */
-            var bannerFour = new Swiper(".banner-four__slider", {
-              loop: true,
-              speed: 2000,
-              slidesPerView: 1,
-              slidesPerGroup: 1,
-              spaceBetween: 24,
-              effect: "fade",
+    var bannerFour = new Swiper(".banner-four__slider", {
+      loop: true,
+      speed: 2000,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 24,
+      effect: "fade",
       fadeEffect: {
         crossFade: true,
       },
-              autoplay: {
-                delay: 6000,
-                disableOnInteraction: false,
-                pauseOnMouseEnter: true,
-              },
-              navigation: {
-                nextEl: ".next-banner",
-                prevEl: ".prev-banner",
-              },
-            });
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      navigation: {
+        nextEl: ".next-banner",
+        prevEl: ".prev-banner",
+      },
+    });
 
-                /**
+    /**
      * ======================================
      * 16. difference slider
      * ======================================
@@ -557,8 +554,7 @@
       },
     });
 
-
-                /**
+    /**
      * ======================================
      * 18. cause slider
      * ======================================
@@ -596,125 +592,125 @@
       },
     });
 
-        /**
+    /**
      * ======================================
      * 21. cause two slider content
      * ======================================
      */
-        var causeTwoSliderThumb = new Swiper(".cause-two__content-slider", {
-          loop: true,
-          speed: 1000,
-          slidesPerView: 1,
-          slidesPerGroup: 1,
-          spaceBetween: 24,
-          centeredSlides: true,
-          watchSlidesProgress: true,
-          effect: "fade",
-    
-          fadeEffect: {
-            crossFade: true,
-          },
-          autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-          navigation: {
-            nextEl: ".next-cause-two",
-            prevEl: ".prev-cause-two",
-          },
-        });
-    
-        var causeTwoSlider = new Swiper(".cause-two__slider", {
-          loop: true,
-          speed: 1000,
-          slidesPerView: 1,
-          slidesPerGroup: 1,
-          spaceBetween: 24,
-          effect: "coverflow",
-          grabCursor: true,
-          centeredSlides: true,
-          loopAddBlankSlides: true,
-          loopAdditionalSlides: 1,
-          slideToClickedSlide: true,
-          roundLengths: true,
-          coverflowEffect: {
-            rotate: 40,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: false,
-          },
-          autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-          thumbs: {
-            swiper: causeTwoSliderThumb,
-          },
-          navigation: {
-            nextEl: ".next-cause-two",
-            prevEl: ".prev-cause-two",
-          },
-          breakpoints: {
-            768: {
-              slidesPerView: 2,
-            },
-            1400: {
-              slidesPerView: 3,
-            },
-          },
-        });
-    
-        /**
-         * ======================================
-         * 22. difference tab
-         * ======================================
-         */
-    
-        $(".difference-two__content-single").hide();
-        $(".difference-two__content-single:first").show();
-    
-        $(".difference-two__tab-btn").on("click", function () {
-          $(".difference-two__tab-btn").removeClass("active");
-          $(this).addClass("active");
-          $(".difference-two__content-single").hide();
-          var target = $(this).data("target");
-          $(target).fadeIn(500);
-          return false;
-        });
+    var causeTwoSliderThumb = new Swiper(".cause-two__content-slider", {
+      loop: true,
+      speed: 1000,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 24,
+      centeredSlides: true,
+      watchSlidesProgress: true,
+      effect: "fade",
 
-        /**
+      fadeEffect: {
+        crossFade: true,
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      navigation: {
+        nextEl: ".next-cause-two",
+        prevEl: ".prev-cause-two",
+      },
+    });
+
+    var causeTwoSlider = new Swiper(".cause-two__slider", {
+      loop: true,
+      speed: 1000,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 24,
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      loopAddBlankSlides: true,
+      loopAdditionalSlides: 1,
+      slideToClickedSlide: true,
+      roundLengths: true,
+      coverflowEffect: {
+        rotate: 40,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      thumbs: {
+        swiper: causeTwoSliderThumb,
+      },
+      navigation: {
+        nextEl: ".next-cause-two",
+        prevEl: ".prev-cause-two",
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+        },
+        1400: {
+          slidesPerView: 3,
+        },
+      },
+    });
+
+    /**
+     * ======================================
+     * 22. difference tab
+     * ======================================
+     */
+
+    $(".difference-two__content-single").hide();
+    $(".difference-two__content-single:first").show();
+
+    $(".difference-two__tab-btn").on("click", function () {
+      $(".difference-two__tab-btn").removeClass("active");
+      $(this).addClass("active");
+      $(".difference-two__content-single").hide();
+      var target = $(this).data("target");
+      $(target).fadeIn(500);
+      return false;
+    });
+
+    /**
      * ======================================
      * 15. partner slider
      * ======================================
      */
-        var partners = new Swiper(".partner__slider", {
-          loop: true,
-          speed: 1000,
-          slidesPerView: 1,
-          slidesPerGroup: 1,
-          spaceBetween: 24,
-          freeMode: true,
-          centeredSlides: true,
-          autoplay: {
-            delay: 2000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-          breakpoints: {
-            420: {
-              slidesPerView: 2,
-            },
-            576: {
-              slidesPerView: 3,
-            },
-            992: {
-              slidesPerView: 5,
-            },
-          },
-        });
+    var partners = new Swiper(".partner__slider", {
+      loop: true,
+      speed: 1000,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 24,
+      freeMode: true,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      breakpoints: {
+        420: {
+          slidesPerView: 2,
+        },
+        576: {
+          slidesPerView: 3,
+        },
+        992: {
+          slidesPerView: 5,
+        },
+      },
+    });
 
     /**
      * ======================================
@@ -723,40 +719,34 @@
      */
     $("select").niceSelect();
 
-
-        /**
+    /**
      * ======================================
-     * 20. testimonial slider
+     * 19. team slider
      * ======================================
      */
-        var testimonial = new Swiper(".testimonial__slider", {
-          loop: true,
-          speed: 1000,
-          slidesPerView: 1,
-          slidesPerGroup: 1,
-          spaceBetween: 24,
-    
-          autoplay: {
-            delay: 2000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-          navigation: {
-            nextEl: ".next-testimonial",
-            prevEl: ".prev-testimonial",
-          },
-    
-          breakpoints: {
-            768: {
-              slidesPerView: 2,
-            },
-            1200: {
-              slidesPerView: 3,
-            },
-          },
-        });
-    
-
+    var teamTwoSlider = new Swiper(".team-two-slider", {
+      loop: true,
+      speed: 1000,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      navigation: {
+        nextEl: ".next-team",
+        prevEl: ".prev-team",
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+        },
+        1200: {
+          slidesPerView: 3,
+        },
+      },
+    });
 
     /**
      * ======================================
@@ -837,28 +827,28 @@
       updateCountdown();
     }
 
-        /**
+    /**
      * ======================================
      * 30. social link active on hover
      * ======================================
      */
-        $(".comment-single").each(function () {
-          $(this)
-            .find(".reply-button button")
-            .on("click", function () {
-              var $currentComment = $(this).closest(".comment-single");
-              $(".comment-single .reply-comment")
-                .not($currentComment.find(".reply-comment"))
-                .slideUp();
-              $currentComment.find(".reply-comment").slideToggle();
-              $(".comment-single .reply-button button")
-                .not(this)
-                .removeClass("active");
-              $(this).toggleClass("active");
-            });
+    $(".comment-single").each(function () {
+      $(this)
+        .find(".reply-button button")
+        .on("click", function () {
+          var $currentComment = $(this).closest(".comment-single");
+          $(".comment-single .reply-comment")
+            .not($currentComment.find(".reply-comment"))
+            .slideUp();
+          $currentComment.find(".reply-comment").slideToggle();
+          $(".comment-single .reply-button button")
+            .not(this)
+            .removeClass("active");
+          $(this).toggleClass("active");
         });
+    });
 
-            /**
+    /**
      * ======================================
      * 19. donate amount
      * ======================================
@@ -880,66 +870,66 @@
       });
     }
 
-        /**
+    /**
      * ======================================
      * 28. product details slider
      * ======================================
      */
-        var productGallery = new Swiper(".product-details-slider-gallery", {
-          loop: true,
-          speed: 1000,
-          slidesPerView: 2,
-          slidesPerGroup: 1,
-          spaceBetween: 24,
-          watchSlidesProgress: true,
-          autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-          breakpoints: {
-            576: {
-              slidesPerView: 3,
-            },
-            768: {
-              slidesPerView: 4,
-            },
-            1400: {
-              slidesPerView: 4,
-            },
-          },
-        });
-    
-        var productSlider = new Swiper(".product-details-slider", {
-          loop: true,
-          speed: 1000,
-          slidesPerView: 1,
-          slidesPerGroup: 1,
-          spaceBetween: 24,
-          centeredSlides: true,
-          slideToClickedSlide: true,
-          roundLengths: true,
-          autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-          thumbs: {
-            swiper: productGallery,
-          },
-        });
+    var productGallery = new Swiper(".product-details-slider-gallery", {
+      loop: true,
+      speed: 1000,
+      slidesPerView: 2,
+      slidesPerGroup: 1,
+      spaceBetween: 24,
+      watchSlidesProgress: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      breakpoints: {
+        576: {
+          slidesPerView: 3,
+        },
+        768: {
+          slidesPerView: 4,
+        },
+        1400: {
+          slidesPerView: 4,
+        },
+      },
+    });
 
-            /**
+    var productSlider = new Swiper(".product-details-slider", {
+      loop: true,
+      speed: 1000,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 24,
+      centeredSlides: true,
+      slideToClickedSlide: true,
+      roundLengths: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      thumbs: {
+        swiper: productGallery,
+      },
+    });
+
+    /**
      * ======================================
-     * 24. testimonial two slider
+     * 20. testimonial slider
      * ======================================
      */
-    var testimonialTwo = new Swiper(".testimonial-two__slider", {
+    var testimonial = new Swiper(".testimonial__slider", {
       loop: true,
       speed: 2000,
       slidesPerView: 1,
       slidesPerGroup: 1,
-      spaceBetween: 0,
+      spaceBetween: 30,
       effect: "fade",
       fadeEffect: {
         crossFade: true,
@@ -950,58 +940,105 @@
         pauseOnMouseEnter: true,
       },
       navigation: {
-        nextEl: ".next-testimonial-two",
-        prevEl: ".prev-testimonial-two",
+        nextEl: ".next-testimonial",
+        prevEl: ".prev-testimonial",
       },
     });
 
+    /**
+     * ======================================
+     * 16. testimonial slider
+     * ======================================
+     */
+    var testimonialSlider = new Swiper(".testimonial-slider", {
+      loop: true,
+      speed: 1000,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      navigation: {
+        nextEl: ".next-testimonial",
+        prevEl: ".prev-testimonial",
+      },
+    });
 
-        /**
+    /**
+     * ======================================
+     * 25. testimonial two slider
+     * ======================================
+     */
+    var testimonialTwo = new Swiper(".testimonial-two-slider", {
+      loop: true,
+      speed: 1000,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 30,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      navigation: {
+        nextEl: ".next-testimonial",
+        prevEl: ".prev-testimonial",
+      },
+      breakpoints: {
+        992: {
+          slidesPerView: 2,
+        },
+      },
+    });
+
+    /**
      * ======================================
      * 25. testimonial three slider
      * ======================================
      */
-        var testimonialThree = new Swiper(".testimonial-three__slider", {
-          loop: true,
-          speed: 1000,
-          slidesPerView: 1,
-          slidesPerGroup: 1,
-          spaceBetween: 24,
-    
-          autoplay: {
-            delay: 2000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-          navigation: {
-            nextEl: ".next-testimonial-three",
-            prevEl: ".prev-testimonial-three",
-          },
-    
-          breakpoints: {
-            1400: {
-              slidesPerView: 2,
-            },
-          },
-        });
-    
-        /**
-         * ======================================
-         * 29. product details tab
-         * ======================================
-         */
-    
-        $(".product-tab-content-single").hide();
-        $(".product-tab-content-single:first").show();
-    
-        $(".product-tab__btn").on("click", function () {
-          $(".product-tab__btn").removeClass("active");
-          $(this).addClass("active");
-          $(".product-tab-content-single").hide();
-          var target = $(this).data("target");
-          $(target).fadeIn(500);
-          return false;
-        });
+    var testimonialThree = new Swiper(".testimonial-three__slider", {
+      loop: true,
+      speed: 1000,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 24,
+
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      navigation: {
+        nextEl: ".next-testimonial-three",
+        prevEl: ".prev-testimonial-three",
+      },
+
+      breakpoints: {
+        1400: {
+          slidesPerView: 2,
+        },
+      },
+    });
+
+    /**
+     * ======================================
+     * 29. product details tab
+     * ======================================
+     */
+
+    $(".product-tab-content-single").hide();
+    $(".product-tab-content-single:first").show();
+
+    $(".product-tab__btn").on("click", function () {
+      $(".product-tab__btn").removeClass("active");
+      $(this).addClass("active");
+      $(".product-tab-content-single").hide();
+      var target = $(this).data("target");
+      $(target).fadeIn(500);
+      return false;
+    });
 
     document.querySelectorAll(".range__slider").forEach(function (el) {
       el.oninput = function () {
@@ -1028,25 +1065,25 @@
       $("#copyrightYear").text(new Date().getFullYear());
     }
 
-        /**
+    /**
      * ======================================
      * 23. odometer counter
      * ======================================
      */
-        $(".odometer").each(function () {
-          $(this).isInViewport(function (status) {
-            if (status === "entered") {
-              for (
-                var i = 0;
-                i < document.querySelectorAll(".odometer").length;
-                i++
-              ) {
-                var el = document.querySelectorAll(".odometer")[i];
-                el.innerHTML = el.getAttribute("data-odometer-final");
-              }
-            }
-          });
-        });
+    $(".odometer").each(function () {
+      $(this).isInViewport(function (status) {
+        if (status === "entered") {
+          for (
+            var i = 0;
+            i < document.querySelectorAll(".odometer").length;
+            i++
+          ) {
+            var el = document.querySelectorAll(".odometer")[i];
+            el.innerHTML = el.getAttribute("data-odometer-final");
+          }
+        }
+      });
+    });
 
     /**
      * ======================================
@@ -1063,30 +1100,30 @@
       });
     }
 
-        /**
+    /**
      * ======================================
      * 17. video popup
      * ======================================
      */
-        if (document.querySelector(".open-video-popup") !== null) {
-          $(".open-video-popup").magnificPopup({
-            disableOn: 768,
-            type: "iframe",
-            mainClass: "mfp-fade",
-            removalDelay: 160,
-            preloader: false,
-            fixedContentPos: false,
-          });
-        }
+    if (document.querySelector(".open-video-popup") !== null) {
+      $(".open-video-popup").magnificPopup({
+        disableOn: 768,
+        type: "iframe",
+        mainClass: "mfp-fade",
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false,
+      });
+    }
 
-        /**
+    /**
      * ======================================
      * 09. aos initialization
      * ======================================
      */
-        AOS.init({
-          once: true,
-        });
+    AOS.init({
+      once: true,
+    });
 
     /**
      * ======================================

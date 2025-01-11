@@ -699,6 +699,7 @@
     color: var(--white);
   }
 
+
   .contact-main .content h6 {
     color: var(--white);
   }
@@ -1078,6 +1079,9 @@
 
   .contact .topbar__item .topbar__item-single {
     background-color: #2e2c2c;
+    span {
+      color: var(--white);
+    }
   }
 
   .authentication {
